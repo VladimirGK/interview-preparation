@@ -2,23 +2,16 @@
 
 ## Meaningful Names
 
-We name and name and name. Because we do so much of it, we’d better do it well.
+* The name of a variable, must tell why it exists, what it does, and how it is used.
+* The name of a variable, must not requrie a comment.
+* The name of a variable, must be easily searchable.
+* The length of a name should correspond to the size of its scope.
+* Classes and objects must have noun or noun phrase names.
+* Methods must have verb or verb phrase names.
 
-### Use Intention-Revealing names
+## Functions
 
-The name of a variable, function, or class, should answer all the big questions. 
-It should tell you why it exists, what it does, and how it is used. If a name 
-requires a comment, then the name does not reveal its intent. 
-
-### Avoid Disinformation
-
-Programmers must avoid leaving false clues that obscure the meaning of code. 
-We should avoid words whose entrenched meanings vary from our intended meaning. 
-
-### Use Pronouceable Names
-
-If you can’t pronounce it, you can’t discuss it without sounding like an idiot.
-
-### User Searchable Names
-
-The length of a name should correspond to the size of its scope. 
+* Must be as small, as possible.
+* Must do only one thing.
+* Every functions must be followed by those at the next level of abstaction.
+* Functions with three or more arguments must be avoided.
