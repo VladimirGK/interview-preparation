@@ -54,18 +54,4 @@ public class Main {
             System.out.print(count + " ");
         }
     }
-//    public static void main(String[] args) {
-//        Scanner sc = new Scanner(System.in);
-//        int n = sc.nextInt();
-//        PriorityQueue<Integer> queue = new PriorityQueue<>(Collections.reverseOrder());
-//        List<Integer> res = new ArrayList<>();
-//        for (int i = 0; i < n; i++) {
-//            int l = sc.nextInt();
-//            if (l == -1 && queue.isEmpty()) {
-//                System.out.print(queue.poll() + " ");
-//            } else {
-//                queue.offer(l);
-//            }
-//        }
-//    }
 }
